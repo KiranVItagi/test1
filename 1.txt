@@ -1,1 +1,4 @@
-HI this is new file
+Welcome to git 
+hi 
+yahoo
+google
