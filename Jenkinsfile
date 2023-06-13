@@ -1,9 +1,19 @@
 pipeline {
     agent { label 'slave1' } 
     stages {
-        stage('checkout') {
+        stage('checkout1') {
             steps {
-                sh 'echo checkout step'
+                sh 'echo checkout1 step'
+            }
+        }
+        stage('checkout2') {
+            steps {
+                sh 'echo checkout2 step'
+            }
+        }
+        stage('checkout3') {
+            steps {
+                sh 'echo checkout3 step'
             }
         }
     }
